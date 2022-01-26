@@ -5,10 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Influencer Gear | Tailwind</title>
-
+        <!-- font Awesome -->
+        <script
+            src="https://kit.fontawesome.com/dad7007a2e.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- tailwind -->
         <script src="https://cdn.tailwindcss.com"></script>
-        <script>
+        <!-- <script>
             tailwind.config = {
                 theme: {
                     extend: {
@@ -19,7 +23,7 @@
                 },
                 plugins: [require("@tailwindcss/forms")],
             };
-        </script>
+        </script> -->
         <!-- custom css -->
         <style type="text/tailwindcss">
             @layer base {
@@ -171,7 +175,7 @@
                     </div>
                     <div class="flex justify-center">
                         <img
-                            class="img-fluid w-75 border border-danger rounded-circle"
+                            class="border border-red-500 rounded-full"
                             src="assets/images/main-camera.png"
                             alt=""
                         />
@@ -986,7 +990,7 @@
         <!-- Main Section End -->
         <!-- Newsletter Section End -->
 
-        <section class="bg-red-500 text-light py-5">
+        <section class="bg-red-500 text-light py-16">
             <div
                 class="md:container px-24 mx-auto grid grid-cols-2 justify-center items-center"
             >
@@ -999,12 +1003,12 @@
                     <form action="" class="flex">
                         <input
                             type="email"
-                            class=""
+                            class="w-full rounded px-4 py-2 m-2 outline-0 focus:ring-4 focus:ring-gray-800"
                             placeholder="Enter your Email"
                             required
                         />
                         <button
-                            class="btn btn-primary text-light"
+                            class="bg-blue-500 text-white px-4 rounded text-xs"
                             type="submit"
                         >
                             Subscribe
@@ -1015,34 +1019,34 @@
         </section>
         <!-- Newsletter Section End -->
         <!-- Footer Section Start -->
-        <footer class="bg-dark mt-5 py-5 text-light">
+        <footer class="bg-indigo-800 mt-16 py-16 text-white">
             <div class="md:container px-24 mx-auto text-center">
-                <h3>Influencer products</h3>
-                <div>
+                <h3 class='text-2xl font-medium'>Influencer products</h3>
+                <div class='my-4'>
                     <p>Copyright © 2020 influencer products</p>
                     <p>All rights reserved</p>
                 </div>
                 <div class="flex justify-center gap-3">
                     <a
-                        class="hover:text-gray-900 text-gray-600 text-info"
+                        class="hover:text-white text-gray-900"
                         href="/"
                     >
                         <i class="fab fa-facebook-f"></i>
                     </a>
                     <a
-                        class="hover:text-gray-900 text-gray-600 text-info"
+                        class="hover:text-white text-gray-900"
                         href="/"
                     >
                         <i class="fab fa-twitter"></i>
                     </a>
                     <a
-                        class="hover:text-gray-900 text-gray-600 text-info"
+                        class="hover:text-white text-gray-900"
                         href="/"
                     >
                         <i class="fab fa-linkedin-in"></i>
                     </a>
                     <a
-                        class="hover:text-gray-900 text-gray-600 text-info"
+                        class="hover:text-white text-gray-900"
                         href="/"
                     >
                         <i class="fab fa-slack"></i>
